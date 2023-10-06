@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1>Register View Page</h1>
+    <RegisterSection />
   </div>
 </template>
 
