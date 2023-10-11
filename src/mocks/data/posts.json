@@ -1,0 +1,58 @@
+[
+  {
+    "title": "React App Basic",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_193915",
+    "like_cnt": 103
+  },
+  {
+    "title": "React Native",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_19324",
+    "like_cnt": 103
+  },
+  {
+    "title": "Javascript ES6",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_195415",
+    "like_cnt": 13
+  },
+  {
+    "title": "How to use Babel",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_63915",
+    "like_cnt": 5303
+  },
+  {
+    "title": "Webpack bundling tool",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_192785",
+    "like_cnt": 98
+  },
+  {
+    "title": "HTML Markup Language",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_193987",
+    "like_cnt": 68
+  },
+  {
+    "title": "Styled-Component",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_8915",
+    "like_cnt": 14
+  },
+  {
+    "title": "Vue Project",
+    "author": "leegin",
+    "reg_date": "2022-10-23",
+    "uid": "post_1943515",
+    "like_cnt": 244
+  }
+]

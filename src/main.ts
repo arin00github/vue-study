@@ -1,5 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
+import { worker } from "./mocks/browser";
 
-createApp(App).use(router).mount('#app')
+if (process.env.NODE_ENV === "development") {
+  worker.start();
+}
+
+createApp(App).use(router).mount("#app");

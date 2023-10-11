@@ -1,6 +1,6 @@
-t
 <template>
   <div>
+    <SubHeader title="Form Input Binding" />
     <form>
       <div class="form-control">
         <label for="form-name">이름</label>
@@ -49,9 +49,18 @@ t
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent, onMounted } from "vue";
+import SubHeader from "../components/common/SubHeader.vue";
+
+onMounted(() => {
+  console.log("컴포넌트가 Mount 됐습니다");
+});
+
 export default defineComponent({
   name: "RegisterSection",
+  components: {
+    SubHeader,
+  },
   data() {
     return {
       form: {
