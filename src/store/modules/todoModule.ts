@@ -34,8 +34,5 @@ export const todoModule: Module<todoModuleState, rootState> = {
     getAllTodos(state) {
       return state.todos;
     },
-    getDoneTodos(state) {
-      return state.todos.filter((todo) => todo.done);
-    },
   },
 };
